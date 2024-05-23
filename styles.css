@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+}
+
+header, footer {
+  background-color: rgb(60, 47, 240);
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  min-height: 75vh;
+}
+
+
+
+
+ 
+  
+
+main {
+  background-color: #137c16;
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.item {
+  background-color: rgb(63, 226, 48);
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.sidebar {
+  background-color: #f44336;
+  flex:0 0 35%
+  flex-basis:50px;
+  padding: 55px;
+  text-align: center;
+  border-radius: 5px;
+}
